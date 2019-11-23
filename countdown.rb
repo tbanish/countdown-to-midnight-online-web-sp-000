@@ -7,9 +7,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(sec)
-  case number
-  when puts "#{number} SECONDS(S)!"
-    sleep(sec)
-  end
+  puts "#{number} SECONDS(S)!"
+  sleep (sec)
 end
   
