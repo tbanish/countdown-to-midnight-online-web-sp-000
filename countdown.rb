@@ -10,4 +10,4 @@ def countdown_with_sleep(sec)
   sleep (sec)
 end
 
-countdown(number)
+countdown(10)
