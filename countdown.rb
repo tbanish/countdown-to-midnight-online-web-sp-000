@@ -6,6 +6,10 @@ def countdown(number)
   return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(number)
-  case 
+def countdown_with_sleep(sec)
+  case number
+  when puts "#{number} SECONDS(S)!"
+    sleep(sec)
+  end
+end
   
