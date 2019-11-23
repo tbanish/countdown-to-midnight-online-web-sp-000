@@ -9,6 +9,3 @@ end
 def countdown_with_sleep(sec)
   sleep (sec)
 end
-
-countdown(10)
-countdown_with_sleep(1)
